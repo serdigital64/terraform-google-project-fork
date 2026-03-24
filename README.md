@@ -1,42 +1,57 @@
-# Terrafor Module: terraform-google-project
+# terraform-google-project
 
-```text
- ███████████                                        █████ █████       █████████    █████████  ███████████      ████████  █████ █████
-░█░░░███░░░█                                       ░░███ ░░███       ███░░░░░███  ███░░░░░███░░███░░░░░███    ███░░░░███░░███ ░░███
-░   ░███  ░   ██████  ████████  ████████   ██████   ░███  ░███ █    ███     ░░░  ███     ░░░  ░███    ░███   ░███   ░░░  ░███  ░███ █
-    ░███     ███░░███░░███░░███░░███░░███ ░░░░░███  ░███████████   ░███         ░███          ░██████████    ░█████████  ░███████████
-    ░███    ░███████  ░███ ░░░  ░███ ░░░   ███████  ░░░░░░░███░█   ░███    █████░███          ░███░░░░░░     ░███░░░░███ ░░░░░░░███░█
-    ░███    ░███░░░   ░███      ░███      ███░░███        ░███░    ░░███  ░░███ ░░███     ███ ░███           ░███   ░███       ░███░
-    █████   ░░██████  █████     █████    ░░████████       █████     ░░█████████  ░░█████████  █████          ░░████████        █████
-   ░░░░░     ░░░░░░  ░░░░░     ░░░░░      ░░░░░░░░       ░░░░░       ░░░░░░░░░    ░░░░░░░░░  ░░░░░            ░░░░░░░░        ░░░░░
-```
+![License](https://img.shields.io/github/license/automation64/terraform-google-project)
+![GitHub stars](https://img.shields.io/github/stars/automation64/terraform-google-project?style=social)
+![GitHub forks](https://img.shields.io/github/forks/automation64/terraform-google-project?style=social)
 
-## Purpose
+---
 
-Terraform module for creating a Projects.
+- [terraform-google-project](#terraform-google-project)
+  - [📌 Overview](#-overview)
+  - [🛠 Contributing](#-contributing)
+  - [⚠️ Disclaimer](#️-disclaimer)
+  - [📜 License](#-license)
+  - [👤 Author](#-author)
 
-The **terraform-google-project** module is part of the [Terra4AWS64](https://github.com/serdigital64/terra4gcp64) project.
+---
 
-## Usage
+## 📌 Overview
 
-## Contributing
+Terraform module to create a Google Cloud project:
 
-Help on implementing new features and maintaining the code base is welcomed.
+- Scope: fully managed by IaC
+- Features:
+  - Service Account for IaC management
+  - Bucket for IaC state
+  - Default network disabled
+  - Core APIs enabled
 
-- [Guildelines](https://github.com/serdigital64/terra4gcp64/blob/develop/CONTRIBUTING.md)
-- [Contributor Covenant Code of Conduct](https://github.com/serdigital64/terra4gcp64/blob/develop/CODE_OF_CONDUCT.md)
+---
 
-## License
+## 🛠 Contributing
 
-[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
+Contributions are welcome! Help us improve by submitting issues, feature requests, or pull requests.
 
-## Repositories
+- [Code of Conduct](https://github.com/automation64/terraform-google-project/blob/main/CODE_OF_CONDUCT.md)
 
-- Terraform Registry: [https://registry.terraform.io/modules/terra4gcp64/project](https://registry.terraform.io/modules/terra4gcp64/project)
-- Module GIT repository: [https://github.com/terra4gcp64/terraform-google-project](https://github.com/terra4gcp64/terraform-google-project)
-- Module Documentation: [https://registry.terraform.io/modules/terra4gcp64/project](https://registry.terraform.io/modules/terra4gcp64/project)
-- Parent project: [https://github.com/serdigital64/terra4gcp64](https://github.com/serdigital64/terra4gcp64)
+---
 
-## Author
+## ⚠️ Disclaimer
+
+This repository is provided "as is" without any warranties. The author is not responsible for any damages or issues arising from its use. Additionally, this project is not affiliated with or endorsed by any organization or entity. Use at your own risk.
+
+---
+
+## 📜 License
+
+**terraform-google-project** is licensed under the [Apache-2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+---
+
+## 👤 Author
 
 - [SerDigital64](https://github.com/serdigital64)
+
+---
+
+🌟 **If you find this project useful, consider giving it a star!** ⭐
